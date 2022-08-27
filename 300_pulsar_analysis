@@ -1,0 +1,16 @@
+import numpy as np
+import matplotlib.pyplot as plt
+from astropy.io import ascii
+import matplotlib.ticker as ticker
+data = ascii.read("pulsar_300.txt")
+p = np.array(data["period"])
+p_dot = np.array(data["period_dot"] )
+plt.scatter(p,p_dot, label = "Data points" , s = 10, color = "red") #scattering th
+plt.xscale("log")
+plt.yscale("log")
+plt.title("P vs P_dot diagram of 300 Pulsars", fontsize = 14)
+plt.xlabel ("Period", fontsize = 12)
+plt.ylabel ("Period_Dot", fontsize = 12)
+plt.legend()
+plt.grid ()
+plt.show()
