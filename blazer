@@ -1,21 +1,4 @@
-#Title: Statistical analysis of micro-variability properties 
-#       of the blazar S5 0716+714 
-#Authors: Xu J., Hu S., Webb J.R., Bhatta G., Jiang Y., 
-#         Chen .X., Alexeeva S., Li Y. 
-#Table: Photometric results catalog
-#================================================================================
-#Byte-by-byte Description of file: apjab3e50t1_mrt.txt
-#--------------------------------------------------------------------------------
-#   Bytes Format Units   Label  Explanations
-#--------------------------------------------------------------------------------
-#   1-  4 I4     yr      Obs.Y  Year of the observation
-#   6-  7 I2     month   Obs.M  Month of the observation
-#   9- 10 I2     d       Obs.D  Day of the observation
-#      12 A1     ---     Band   Band used in the observation
-#  14- 24 F11.3  d       JD     Julian date of observation
-#  26- 30 F5.2   mag     mag    Apparent magnitude in Band
-#  32- 37 F6.4   mag   e_mag    Error in mag 
---------------------------------------------------------------------------------
+
 a1   a2 a3 a4    t       m      e
 2011 01 16 I 2455578.169 12.57 0.0220 
 2011 01 16 I 2455578.232 12.78 0.0190 
