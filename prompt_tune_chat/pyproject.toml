@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prompt-tune-chat"
+version = "0.1.0"
+description = "A tiny Python library for prompt tuning through structured chat loops."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+  { name = "Darkandpure Contributors" }
+]
+keywords = ["prompt", "chat", "llm", "prompt-tuning", "ai"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent"
+]
+
+[project.urls]
+Homepage = "https://github.com/Darkandpure/Darkandpure"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
